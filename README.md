@@ -12,9 +12,9 @@ See the original article for a full walkthrough: [https://medium.com/@dtkatz/3-w
 ### Run the server
 ```
 npm i
-npm run start
+node local.js
 ```
 
-Then visit `localhost:5000/latest/cheeses`.
+Then visit `localhost:5000/cheeses`.
 
 #### Enjoy!
