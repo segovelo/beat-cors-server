@@ -20,7 +20,7 @@ app.get('/cheeses', (req, res) => {
   )
 });
 
-// endpoint to get a specific post
+// endpoint to get a cheese by name
 app.get('/cheeses/:name', (req, res) => {
   const { name } = req.params;
   request(
